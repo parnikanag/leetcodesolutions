@@ -1,0 +1,11 @@
+// Title: Longest Valid Parentheses
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/longest-valid-parentheses/
+
+                if not st:
+                    st.append(i)
+                else:
+                    res = max(res, i - st[-1])
+                    
+        return res
