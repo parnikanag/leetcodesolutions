@@ -1,0 +1,14 @@
+// Title: Valid Parenthesis String
+            // Difficulty: Unknown
+            // Language: Python3
+            // Link: https://leetcode.com/problems/valid-parenthesis-string/
+
+class Solution:
+    def checkValidString(self, s: str) -> bool:
+        l = h = 0
+
+        for c in s:
+            l += ((c == '(') << 1) - 1
+            h += ((c != ')') << 1) - 1
+
+            if h < 0: return False
