@@ -1,0 +1,14 @@
+// Title: Score of Parentheses
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/score-of-parentheses/
+
+                v = stack.pop()
+            else:
+                stack.append(0)
+            if char == '(':
+        for char in s:
+        stack = [0] 
+    def scoreOfParentheses(self, s: str) -> int:
+class Solution:
+                stack[-1] += max(2 * v, 1)
