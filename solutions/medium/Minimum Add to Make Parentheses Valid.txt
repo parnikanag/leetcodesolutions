@@ -1,0 +1,15 @@
+// Title: Minimum Add to Make Parentheses Valid
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+
+                else:
+                    open_needed += 1  # No open parenthesis available, 
+                    we must insert one
+                    balance -= 1  # Matches a previous open parenthesis
+                if balance > 0:
+            else:
+                balance += 1
+            if char == '(':
+                    
+        return open_needed + balance
