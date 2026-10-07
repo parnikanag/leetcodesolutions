@@ -1,0 +1,15 @@
+// Title: Remove Invalid Parentheses
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/remove-invalid-parentheses/
+
+                        if child not in visited:
+                        child = curr[:i] + curr[i+1:]
+                        
+                            continue # Leave letters untouched
+                        if curr[i] not in ('(', ')'):
+                    for i in range(len(curr)):
+                if not found:
+                # we don't need to generate further children.
+                # If a valid string is already found at this level, 
+                            visited.add(child)
