@@ -1,0 +1,14 @@
+// Title: Remove Outermost Parentheses
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/remove-outermost-parentheses/
+
+                    ans.append(char)
+                opened += 1
+            else:  # char == ')'
+                opened -= 1
+                if opened > 0:
+                    ans.append(char)
+                    
+        return "".join(ans)
+
