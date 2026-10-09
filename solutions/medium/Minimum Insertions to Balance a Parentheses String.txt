@@ -1,0 +1,13 @@
+// Title: Minimum Insertions to Balance a Parentheses String
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/
+
+                # A new '(' provides 2 needed closing parentheses
+                if needed_right < 0:
+                    insertions += 1
+                    needed_right += 2
+                    
+        
+        return insertions + needed_right
+
