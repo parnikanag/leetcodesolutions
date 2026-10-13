@@ -1,0 +1,14 @@
+// Title: Maximum Alternating Sum of Squares
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
+
+        n = len(nums)
+        mid = n // 2
+        subtracted_sum = sum(x * x for x in nums[:mid])
+        added_sum = sum(x * x for x in nums[mid:])
+        return added_sum - subtracted_sum
+
+        nums.sort(key=abs)
+    def maxAlternatingSum(self, nums: list[int]) -> int:
+class Solution:
