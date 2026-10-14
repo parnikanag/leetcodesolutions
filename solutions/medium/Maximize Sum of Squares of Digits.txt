@@ -1,0 +1,14 @@
+// Title: Maximize Sum of Squares of Digits
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/maximize-sum-of-squares-of-digits/
+
+        result = ["9"] * nines
+        if remainder > 0:
+            result.append(str(remainder))
+            
+        zeros_needed = num - len(result)
+        result.extend(["0"] * zeros_needed)
+        
+        return "".join(result)
+
