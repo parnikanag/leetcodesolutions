@@ -1,0 +1,14 @@
+// Title: Subarrays Distinct Element Sum of Squares I
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i/
+
+        total_sum = 0
+        n = len(nums)
+        
+        # Iterate through all possible starting positions
+        for i in range(n):
+            distinct_elements = set()
+            
+class Solution:
+    def sumCounts(self, nums: list[int]) -> int:
