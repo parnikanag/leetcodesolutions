@@ -1,0 +1,11 @@
+// Title: Subarrays Distinct Element Sum of Squares II
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/
+
+            
+            # Track the index of the last occurrence of the element
+            last_seen[num] = j
+
+        return total_ans
+
