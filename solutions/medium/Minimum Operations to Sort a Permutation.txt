@@ -1,0 +1,14 @@
+// Title: Minimum Operations to Sort a Permutation
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
+
+            if nums[(zero - i + n) % n] != i:
+                is_decreasing = False
+                break
+                
+        if is_decreasing:
+            return min(zero + 2, n - zero)
+            
+        return -1
+
