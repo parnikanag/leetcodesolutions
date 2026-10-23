@@ -1,0 +1,14 @@
+// Title: Maximum K to Sort a Permutation
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/maximum-k-to-sort-a-permutation/
+
+        for i, x in enumerate(nums):
+            # Track only the elements that are out of place
+            if i != x:
+                ans &= x
+                
+        # If ans remains -1 (meaning the array was already sorted), 
+        return 0
+        return max(ans, 0)
+
