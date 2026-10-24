@@ -1,0 +1,16 @@
+// Title: Count Days Spent Together
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/count-days-spent-together/
+
+        bob_start = dateToDayOfYear(arriveBob)
+        bob_end = dateToDayOfYear(leaveBob)
+        
+        # Determine overlap boundaries
+        overlap_start = max(alice_start, bob_start)
+        overlap_end = min(alice_end, bob_end)
+        alice_end = dateToDayOfYear(leaveAlice)
+        alice_start = dateToDayOfYear(arriveAlice)
+        # Convert all 4 dates into day-of-year integers
+        
+            return sum(days_in_month[:month]) + day
