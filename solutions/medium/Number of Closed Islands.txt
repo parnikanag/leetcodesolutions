@@ -1,0 +1,13 @@
+// Title: Number of Closed Islands
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/number-of-closed-islands/
+
+        closed_islands = 0
+        for r in range(ROWS):
+            for c in range(COLS):
+                if grid[r][c] == 0:
+                    closed_islands += 1
+                    dfs(r, c) 
+        return closed_islands
+
