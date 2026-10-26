@@ -1,0 +1,14 @@
+// Title: Count Islands With Total Value Divisible by K
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/
+
+            if r < 0 or r >= m or c < 0 or c >= n or grid[r][c] == 0:
+                return 0
+        
+        def dfs(r: int, c: int) -> int:
+            # Base cases: out of bounds or water/visited cell
+class Solution:
+    def countIslands(self, grid: list[list[int]], k: int) -> int:
+        m, n = len(grid), len(grid[0])
+        island_count = 0
