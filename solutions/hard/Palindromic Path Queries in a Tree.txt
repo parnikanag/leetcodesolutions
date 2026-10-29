@@ -1,0 +1,14 @@
+// Title: Palindromic Path Queries in a Tree
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/palindromic-path-queries-in-a-tree/
+
+        self.tree = [0] * (size + 2)
+# Increase recursion depth for deep trees
+sys.setrecursionlimit(300000)
+
+class FenwickTree:
+    def __init__(self, size):
+        self.size = size
+import sys
+
