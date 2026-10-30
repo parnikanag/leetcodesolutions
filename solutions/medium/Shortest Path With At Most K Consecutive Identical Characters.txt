@@ -1,0 +1,14 @@
+// Title: Shortest Path With At Most K Consecutive Identical Characters
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/
+
+                
+            for v, w in adj[u]:
+                nxt_consec = consec + 1 if labels[v] == labels[u] else 1
+                if nxt_consec <= k and d + w < dist[v][nxt_consec]:
+                    dist[v][nxt_consec] = d + w
+                    heappush(pq, (d + w, v, nxt_consec))
+                    
+        return -1
+
